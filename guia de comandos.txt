@@ -112,3 +112,24 @@ Faça login no GitHub, se necessário
 Faça login no GitHub, se necessário
 
 As alterações devem aparecer no seu repositório no GitHub
+
+****************************************
+
+git checkout -b dev
+criar uma nova branch com nome dev
+
+git branch
+verificar todas as branch existente dentro daquele repositório
+
+git push origin dev
+mandar/criar para o github a branch dev 
+
+git checkout main
+ trocar de branch - sem o -b pq o -b cria uma nova branch enquanto sem troca da branch atual
+
+git log
+mostrar o histórico de commits
+
+q 
+para sair do histórico e volta para o terminal
+
