@@ -135,3 +135,8 @@ para sair do histórico e volta para o terminal
 
 git merge dev
 trouxe todo conteúdo da branch dev para a branch main
+
+git clone https://github.com/anapaula-sds/Introducao-git.git
+
+clonar a pasta que foi perdida
+git clone https://github.com/anapaula-sds/Introducao-git.git
