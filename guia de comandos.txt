@@ -1,0 +1,59 @@
+versionamento é o gerenciamento de diferentes versões dos documentos
+
+-Controle de histórico
+-Trabalho em equipe 
+-Marcação das versões
+-Ramificação do projeto
+-Confiança
+
+*serve como backup
+
+Git: sistema de versionamento na maquina
+
+GitHub: site - versionamento online
+
+Master (Main)
+Develop
+Feature
+Feature
+
+Fazer COMMIT fazer uma descrição e foto do momento
+
+Git add
+prepara o local (stage area) para receber o arquivo
+
+Git commit
+inserir o documento dentro do sistema de versionamento, vai entrar em alguma branch, obrigatório mensagem sobre a alteração no commit
+ex: Mudança da cor do botão
+
+GitHub: site da Microsoft integra o que tem de git do computador com o sistema deles
+
+
+Comandos:
+GIT INIT: branch principal criado um repositorio local
+
+git remote add origin https://github.com/anapaula-sds/Introducao-git.git
+*envia a pasta para o meu repositório*
+
+ git config --global user.email "anapaula-sds@hotmail.com"
+
+ git config --global user.name "Ana Paula"
+
+
+git add .
+envia tudo que tem na pasta para o diretório . significa tudo
+
+git commit -m "Meu primeiro commit"
+commit com mensagem - envio
+
+git status: mmostrar arquivos que não foram commitados
+
+caso tenha feito alguma alteração aparecerá uma mensagem em vermelho dizendo eu houve alteração
+
+então novamente:
+git add .   para enviar a pasta inteira novamente
+
+git commit -m "Meu segundo commit"
+
+ git push -u origin main
+Novamnte para enviar para o repositório 
