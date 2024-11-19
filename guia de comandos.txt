@@ -116,7 +116,7 @@ As alterações devem aparecer no seu repositório no GitHub
 ****************************************
 
 git checkout -b dev
-criar uma nova branch com nome dev
+criar uma nova branch com nome dev onde copia tudo que existe dentro da branch main que era a origem da nova brand criada - dev
 
 git branch
 verificar todas as branch existente dentro daquele repositório
@@ -133,3 +133,5 @@ mostrar o histórico de commits
 q 
 para sair do histórico e volta para o terminal
 
+git merge dev
+trouxe todo conteúdo da branch dev para a branch main
